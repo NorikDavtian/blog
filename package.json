@@ -7,7 +7,10 @@
   },
   "scripts": {
   	"start": "hexo server",
-    "admin": "hexo server -d"
+    "admin": "hexo server -d",
+    "generate": "hexo generate",
+    "deploy": "hexo generate -d",
+    "watch": "hexo generate -w"
   },
   "dependencies": {
     "hexo": "^3.1.0",
