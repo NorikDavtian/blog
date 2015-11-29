@@ -68,4 +68,7 @@ theme: false
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:NorikDavtian/blog.git
+  branch: gh-pages
+  url: http://norikdavtian.github.io/blog/
