@@ -9,8 +9,10 @@
     "start": "hexo server",
     "admin": "hexo server -d",
     "generate": "hexo generate",
+    "predeploy": "hexo clean",
     "deploy": "hexo generate -d",
-    "watch": "hexo generate -w"
+    "watch": "hexo generate -w",
+    "clean": "hexo clean"
   },
   "dependencies": {
     "hexo": "^3.1.0",
