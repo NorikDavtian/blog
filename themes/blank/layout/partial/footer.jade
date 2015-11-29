@@ -1,0 +1,13 @@
+ul.nav.nav-footer
+    each value, key in site.data.menu.footer
+        li
+            - var re = /^(http|https):\/\/*/gi;
+            - var tar = re.test(value) ? "_blank" : "_self"
+            a(class={active: is_home() && value === "/"} href=value target=tar)
+                != key.toUpperCase()
+            i /
+    li Built with &nbsp;
+        a(href='https://hexo.io') HEXO.io
+        i /
+    li
+        a.copy(href='https://github.com/NorikDavtian/blog') Copy this Blog

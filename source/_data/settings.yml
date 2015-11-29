@@ -1,15 +1,10 @@
-menu:
-    home: /
-    about: /blog/about.html
-    github: https://github.com/NorikDavtian
-
 favicon: /blog/favicon.png
 logo: /blog/norik.jpg
 
 # comment
 # e.g disqus: seansun
-disqus: 
-duoshuo: 
+disqus:
+duoshuo:
 
 # google-analytics: (something like UA-00000000-1)
 ga:
