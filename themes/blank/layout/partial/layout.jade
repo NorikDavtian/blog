@@ -4,7 +4,7 @@ html(lang=config.language)
         include head
     body
         header
-            a.logo-link(href=url_for())
+            a.logo-link(href=site.data.menu.header.home)
                 img(src=site.data.settings.logo)
             include nav
         section.container
