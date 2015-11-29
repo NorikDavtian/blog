@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Norik Davtian &mdash; Full-Stack JavaScript Engineer living in Los Angeles.
+subtitle: I &heart; Code!
+description: My persoanl journal of things I learn while building applications.
+author: Norik Davtian
+language: en
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: false
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

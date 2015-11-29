@@ -1,9 +1,13 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "personal-hexo-site",
+  "version": "0.0.1",
   "private": true,
+  "main": "hexo server",
   "hexo": {
     "version": "3.1.1"
+  },
+  "scripts": {
+    "admin": "hexo server -d"
   },
   "dependencies": {
     "hexo": "^3.1.0",
