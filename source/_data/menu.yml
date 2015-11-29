@@ -1,6 +1,6 @@
 header:
-  home: /
+  home: /blog/
   contact: /blog/about.html
 footer:
-  home: /
+  home: /blog/
   github: https://github.com/NorikDavtian
